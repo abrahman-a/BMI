@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.title a {
+    background-color: cornflowerblue;   
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding:  0 1rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    height: 50%;
+}
+ .title ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+ }
+
+ .side_title{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+ }
+
+ .title li:active{
+    background-color: #555;
+ }
+ 
